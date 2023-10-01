@@ -1,0 +1,238 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap";
+html,body{
+    margin: 0;
+    flex-direction: column;
+    font-family: "Poppins" ,sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+.arriba{
+  text-align: center;
+  height: 90px;
+  width: 100%;
+  color: white;
+  background-color: #d8ae44;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.arriba .im{
+margin-left: -22px;
+margin-right: 20px;
+} 
+.arriba .im:hover{
+  width: 40px;
+  cursor: pointer;
+
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.contenido{
+    width: 100% ;
+    background-color: #f4f4f4;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.contenido .titulo p{
+    font-size: 30px;
+    color: #283352;
+    text-align: center;
+    line-height: 1.3;
+    padding: 0 50px;
+}
+
+.botones {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    border: none;
+    border-radius: 80px;
+    width: 75%;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.3);
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: white;
+    font-family: "Poppins" ,sans-serif;
+  }
+  .botones p{
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    margin: 0;
+    color: #28335c;
+  }
+  .formulario :hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+  .bt_estudiante img,
+  .bt_profesor img,
+  .bt_curriculo img,
+  .bt_pedagogia img,
+  .bt_academica img,
+  .bt_tecnologia img,
+  .bt_evaluacion img {
+    height: 60px;
+  }
+  footer{
+    text-align: center;
+    font-size: 23px;
+    color: #283352;
+    line-height: 1.3;
+    padding: 0 50px;
+  }
+
+    
+    .gracias{
+        padding: 25px;
+        border-radius:80px;
+        width:80%;
+        gap: 20px;
+        text-align: center;
+        transition: transform .3s ease-in; 
+        box-shadow: 5px 5px 15px rgba(black, 0.5);
+        background-color: white;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        margin-right: 15px;
+        margin-top: 200px;
+    }
+
+    .gracias p{
+        font-size:40px;
+        letter-spacing: -1px;
+        font-weight: 800;
+        margin: 0;
+        color: #28335c;
+    }
+    .gracias img{
+        width: 60px;
+        height: 60px;
+        border: none;
+        
+    }
+    .contenido .texgracias p{
+    font-size: 30px;
+    color: #28335c;
+    text-align: center;
+    line-height: 1.1;
+    padding: 0px 50px;
+    margin: 50px 0px;
+    margin-bottom: 200px;
+
+    }
+    .contenidoo {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
+    .contenidoo p {
+        color: #28335c;
+        font-size: 25px;
+        color: #28335c;
+        text-align: center;
+        line-height: 1.1;
+        padding: 0px 50px;
+        margin: 25px 0px;
+    }
+      
+      .botones2 {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        font-size: 12px;
+      }
+      
+      .button-like-checkbox {
+        display: inline-block;
+        position: relative;
+      }
+      
+      .button-like-checkbox input[type="checkbox"] {
+        display: none;
+      }
+      
+      .button-like-checkbox .checkbox-label {
+        display: inline-block;
+        background-color: white;
+        padding: 8px 16px;
+        border-radius: 15px;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        width: 90px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        color: #28335c;
+        font-size: 12px;
+        
+      }
+      
+      .button-like-checkbox input[type="checkbox"]:checked + .checkbox-label {
+        background-color: #d8ae44;
+        font-size: 10px;
+        color: #fff;
+      }
+      
+      /* Estilos adicionales para simular un botón */
+      .button-like-checkbox .checkbox-label:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 80px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px rgba(0,0,0, 0.3);
+    
+      }
+      
+      .enviar{
+        border-radius: 30px;
+        width: 140px;
+        height: 40px;
+        color: white;
+        background-color: #d8ae44;
+        font-size: 17px;
+        border: none;
+        margin-top: 50px;
+    }
+    .conenviar{
+    display: flex;
+    align-items: center;      
+    flex-direction: column;
+    }
+    .sesion1 , .sesion3{
+    background-color: #f4f4f4;
+        
+        padding-bottom: 24px;
+        width: 100%;
+    }
+    .sesion2{
+        padding-bottom: 24px;
+    }
+      
+      
+      
+      
+      
