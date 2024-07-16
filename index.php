@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/gracias.css">
     <link rel="icon" type="image/svg+xml" href="img/vita.svg">
-    <title>Document</title>
+    <title>Document CED</title>
 
 </head>
 <body>
@@ -16,7 +16,7 @@
 
 <div class="contenido">
 <div class="titulo" style="margin-top: 200px;">
-    <p>¿Cuál es tu rol dentro de la institución?</p>
+    <p>¿Cuál es tu rol dentro de la institución? </p>
 </div>
     
 <form class="formulario" action="guardar_datos.php" method="POST">
